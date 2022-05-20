@@ -1,6 +1,7 @@
+import { FC, ReactNode } from "react";
 
 
-export const DarkLayout = ({ children }) => {
+export const DarkLayout:FC<{children:ReactNode}> = ({ children }) => {
   return (
     <div style={{
         backgroundColor: 'rgba(0,0,0,0.3)',
